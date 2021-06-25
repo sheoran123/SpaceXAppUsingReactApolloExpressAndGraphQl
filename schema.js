@@ -9,7 +9,8 @@ const LaunchType=new GraphQLObjectType({
         name:{type:GraphQLString},
         date_local:{type:GraphQLString},
         success:{type:GraphQLBoolean},
-        rocket:{type:RocketType}
+        rocket:{type:RocketType},
+        id:{type:GraphQLString}
     })
 })
 
